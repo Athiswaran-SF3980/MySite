@@ -2,6 +2,7 @@
 
 This project demonstrates a complete CI/CD pipeline for Blazor WebAssembly applications using GitHub Actions and Azure Static Web Apps.
 
+
 ## Features
 
 - **Automated Build & Test**: Every commit triggers build and unit tests
