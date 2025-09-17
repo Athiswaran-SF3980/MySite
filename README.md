@@ -130,4 +130,4 @@ The pipeline will automatically test and deploy your changes to a preview enviro
 
 ## License
 
-This project is licensed under the MIT License. 
+This project is licensed under the MIT License.  
