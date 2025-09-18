@@ -84,7 +84,7 @@ jobs:
 
 
     - name: Install node dependencies
-      run: npm ci --prefix tests/e2e
+      run: npm install --prefix tests/e2e
 
     - name: Run smoke tests
       run: npx playwright test --project=chromium --reporter=line
