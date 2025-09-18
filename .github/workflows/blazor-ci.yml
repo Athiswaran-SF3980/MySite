@@ -68,6 +68,7 @@ jobs:
         app_location: "wwwroot"
         output_location: ""
         skip_api_build: true
+        deployment_action: "upload"
 
   e2e:
     needs: deploy
