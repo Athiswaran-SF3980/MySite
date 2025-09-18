@@ -74,7 +74,7 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     env:
-      SITE_URL: ${{ needs.deploy.outputs.static_web_app_url }}
+      SITE_URL: https://icy-sand-058fda30f.1.azurestaticapps.net/
 
     steps:
     - uses: actions/checkout@v4
